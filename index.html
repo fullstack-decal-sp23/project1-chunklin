@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+    <html lang="en">
+    <head>
+        <meta name="author" content="Kevin Li">
+        <meta name="description" content="Kevin Li's Personal Page">
+        <title>Kevin Li Personal Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <ul>
+        <li><a class="active" href="index.html">About Me</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h1>Welcome to Kevin Li's Personal Website!</h1>
+    <button onclick="changeTheme()">Ẉ̴̢͍̱̤̙̥̼̹̈̔̆̅̈́͌̊́Ì̵̭̙͈͖̠͔̯̫̮̗̖͉̎̾͛̓D̸͔̬͙̞̫̗̆̈̆̌̃̐̾̓͠͝ͅͅͅÈ̶̱
+        ̶̢̧̱͚̩͙̤̳͂͋</button>
+    <script>
+        function changeTheme() {
+            kevinpic.style.width = 4000 + "px";
+        }
+    </script>
+    <h2 id="Intro">About Me</h2>
+    <img src = "kevin.jpg" style="width:200px;height:200px;" name="kevinpic"></img>
+    <h4>I'm an aspiring software engineer and I am currently a junior at UC Berkeley. In my free time I like playing tennis, dancing, and ARAM.</h4>
+    <h5>What's your name?</h5>
+    <h6>say hi!</h6>
+    <form name = "sayhi" onsubmit="greetings()">
+        <label>Name:</label>
+        <input type="text" name ="name" id="name">
+        <input type="submit">
+    </form>
+
+    <script>
+        function greetings() {
+            var name = sayhi.name.value;
+            alert("Hello " + name + "!");
+        }
+    </script>

@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+    <html lang="en">
+    <head>
+        <meta name="author" content="Kevin Li">
+        <meta name="description" content="Kevin Li's Personal Page">
+        <title>Kevin Li Personal Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a class="active" href="active.html">Work</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h1>My Work Experience</h1>
+    <div style="display:flex; flex-direction:row; gap:50px;">
+        <div>
+            <h2>Amazon</h2><h3>Software Developer Engineer Intern</h3> 
+            <h4>Created a full-stack internal ops tool that retrieved details for and allowed for creation/acceptance of amendment
+            requests for buyer-seller agreements in AWS marketplace to greatly reduce load for on-call engineers.
+            Worked with API Gateway, Lambda, AWS CDK, DynamoDB, IAM roles, and user authorization to create an API
+            and backend that automated agreement request detail retrieval, making a process that previously required manually
+            browsing the database as well as team-specific credentials take a matter of seconds.
+            Added Cloudwatch graph metrics that displayed transactions per second, error rate, and latency to measure
+            Lambda function performance and automatically create SEV3 tickets in case of abnormal metrics.
+            Created comprehensive unit and integration tests to ensure reliability of API and Backend as well as deploying
+            integration tests into a CI/CD pipeline to ensure future changes aren’t liabilities to the tool’s functionality.</h4>
+        </div>
+        <div>
+            <h2>Parkpak</h2>
+            <h4> Placed 2nd overall and received best IOT hack award using a Qualcomm Device at LingHacks II hackathon.
+                Created a park monitoring web app with facial recognition, speech recognition and processing, and various sensors
+                to display important information for park rangers.
+            </h4>
+        </div>
+        <div>
+            <h2>Algorithmetic</h2>
+            <h4>
+                Won Best Use of Hasura at LaunchHacks I hackathon.
+                Created a math practice website that adapted to different skills and weaknesses as the user completed questions, as
+                well as learning and using the Hasura database service to send information from the backend to the website.
+            </h4>
+        </div>
+    </div>
